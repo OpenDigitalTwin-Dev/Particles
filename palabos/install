@@ -1,0 +1,8 @@
+sudo apt -y install cmake make gcc g++
+sudo apt -y install libtinyxml-dev
+
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=$PWD/../../install/palabos_install
+make -j4
+make install
