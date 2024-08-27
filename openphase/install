@@ -1,0 +1,10 @@
+sudo apt install make gcc g++
+sudo apt install libfftw3-dev
+
+make -j4
+
+mkdir -p ../install/openphase_install/lib
+mkdir -p ../install/openphase_install/include
+
+cp -r lib/*.* ../install/openphase_install/lib
+cp -r include/*.* ../install/openphase_install/include

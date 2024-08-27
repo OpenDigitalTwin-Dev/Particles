@@ -1,0 +1,3 @@
+rm lib/*.*
+rm obj/*.*
+rm -rf ../install/openphase_install
