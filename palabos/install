@@ -1,5 +1,5 @@
 sudo apt -y install cmake make gcc g++
-sudo apt -y install libtinyxml-dev
+sudo apt -y install libtinyxml-dev libeigen3-dev libmpich-dev
 
 mkdir build
 cd build
