@@ -1,0 +1,16 @@
+sudo apt update
+sudo apt -y install cmake make gcc g++
+sudo apt -y install p7zip-full
+
+7za x bench.7z -o/$PWD/
+7za x doc.7z -o/$PWD/
+7za x examples.7z -o/$PWD/
+7za x lib.7z -o/$PWD/
+7za x potentials.7z -o/$PWD/
+7za x tools.7z -o/$PWD/
+
+mkdir build
+cd build
+cmake ../cmake -DCMAKE_INSTALL_PREFIX=$PWD/../../install/lammps_install -DBUILD_SHARED_LIBS=ON
+make -j4
+make install
