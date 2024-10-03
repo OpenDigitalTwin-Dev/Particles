@@ -1,3 +1,0 @@
-tfel-check tests dirs are organized as follows :
- - pass  : tests that are expected to pass
- - xfail : tests that are expected to fail

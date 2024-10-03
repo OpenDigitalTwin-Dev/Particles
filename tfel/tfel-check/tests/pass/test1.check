@@ -1,3 +1,0 @@
-@Environment {"TFEL_CHECK_TEST1_ENV" : "./libs",
-	      "TFEL_CHECK_TEST1_ENV" : "./libs2"};
-@Command "./test1";

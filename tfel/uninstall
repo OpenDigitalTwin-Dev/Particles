@@ -1,3 +1,0 @@
-rm -rf build
-rm -rf ../install/mfront_install
-rm -rf docs
