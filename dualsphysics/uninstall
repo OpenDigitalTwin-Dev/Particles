@@ -1,0 +1,8 @@
+rm -rf bin
+rm -rf src/lib
+rm -rf src_mphase/DSPH_v5.0_NNewtonian/lib
+
+cd src/source
+make -f Makefile_cpu clean
+cd ../../
+rm -rf ../install/dualsphsics_install

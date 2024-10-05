@@ -1,0 +1,5 @@
+sudo apt install gcc g++ make cmake p7zip-full
+
+7za x bin.7z -o/$PWD/
+7za x src/lib.7z -o/$PWD/src
+7za x src_mphase/DSPH_v5.0_NNewtonian/lib.7z -o/$PWD/src_mphase/DSPH_v5.0_NNewtonian/

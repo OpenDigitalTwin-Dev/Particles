@@ -1,0 +1,11 @@
+sudo apt -y install gcc g++ make cmake p7zip-full
+
+7za x bin.7z -o/$PWD/
+7za x src/lib.7z -o/$PWD/src
+7za x src_mphase/DSPH_v5.0_NNewtonian/lib.7z -o/$PWD/src_mphase/DSPH_v5.0_NNewtonian/
+
+cd src/source
+make -f Makefile_cpu
+cd ../../
+mkdir ../install
+cp -r bin ../install/dualsphsics_install
