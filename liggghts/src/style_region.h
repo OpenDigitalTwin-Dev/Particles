@@ -1,0 +1,11 @@
+/* created on 2024-10-05 20:17:57 */
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_block.h"
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_cone.h"
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_cylinder.h"
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_intersect.h"
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_mesh_tet.h"
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_plane.h"
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_prism.h"
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_sphere.h"
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_union.h"
+#include "/home/jiping/FENGSim/toolkit/Particles/liggghts/src/region_wedge.h"

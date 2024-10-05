@@ -1,0 +1,11 @@
+sudo apt -y install gcc g++ cmake make p7zip-full
+
+7za x doc.7z -o/$PWD/
+7za x lib.7z -o/$PWD/
+
+cd src
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=$PWD/../../../install/liggghts_install -DENABLE_VTK=OFF
+make -j4
+make install
